@@ -1,0 +1,39 @@
+const FooterNavLink = [
+    {
+        id:1,
+        title:'Home',
+        to:'/',
+    },
+    {
+        id:2,
+        title:'About',
+        to:'/about',
+    },
+    {
+        id:3,
+        title:'Treatment',
+        to:'/treatment',
+    },
+    {
+        id:4,
+        title:'Accomodation',
+        to:'/accommodation',
+    },
+    {
+        id:5,
+        title:'Program',
+        to:'/',
+    },
+    {
+        id:6,
+        title:'Blog',
+        to:'/',
+    },
+    {
+        id:7,
+        title:'Contact',
+        to:'/',
+    },
+];
+
+export default FooterNavLink;
