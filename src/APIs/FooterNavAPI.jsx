@@ -21,8 +21,8 @@ const FooterNavLink = [
     },
     {
         id:5,
-        title:'Program',
-        to:'/',
+        title:'Programs',
+        to:'/programs',
     },
     {
         id:6,

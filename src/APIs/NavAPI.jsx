@@ -32,7 +32,7 @@ const NavLink = [
   {
     id: 5,
     title: 'Programs',
-    to: "/",
+    to: "/programs",
     class:
       "text-[1.6rem] max-md:text-[2rem] font-normal hover:scale-[1.1] transition-all duration-[0.2s] navlink tracking-[0]",
   },
