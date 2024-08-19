@@ -21,8 +21,8 @@ const HomeGallery = () => {
             balance we strive to create for our guests.
           </p>
           <Link
-            to={"/"}
-            onClick={handleOnClick("/")}
+            to={"/gallery"}
+            onClick={handleOnClick("/gallery")}
             className={`text-[2rem] font-normal bg-[#50392c] border-[1px] border-[#50392c] text-[white] rounded-md px-[2rem] py-[0.5rem] mt-[2rem] hover:bg-transparent hover:border-[white] hover:text-[white] transition-all duration-[0.2s]`}
           >
             Read More

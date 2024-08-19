@@ -9,6 +9,7 @@ import HomeAccommodation from "./HomeAccommodation";
 import HomeGallery from "./HomeGallery";
 import Footer from "../../Components/Footer/Footer";
 import Handlers from "../../Services/Handlers";
+import logo from "/Images/logo.png";
 
 const Home = () => {
   const { handleOnClick } = Handlers();
@@ -48,18 +49,15 @@ const Home = () => {
               onClick={handleOnClick("/")}
               className="text-[4rem] font-medium"
             >
-              <span className="text-[4.5rem] text-[white] bg-[green] px-[1rem] py-[0rem] rounded-md">
-                R
-              </span>{" "}
-              <span className="text-[green]">R</span>udra
-              <span className="text-[green]">R</span>ogyam
+              <img src={logo} alt="logo" className="w-[100%] max-sm:w-[80%]" />
             </Link>
           </div>
           <Link
-            to={"/"}
+            to={"/book"}
+            onClick={handleOnClick("/book")}
             className="text-[1.6rem] font-normal bg-[#00804b] border-[1px] border-[#00804b] text-[white] rounded-md px-[1rem] py-[0.5rem] transition-all duration-[0.3s] hover:border-[1px] hover:border-[black] hover:bg-[#f2f2f2] hover:text-[black] mt-[2rem]"
           >
-            Online Consultation
+            Book Now
           </Link>
           <p className="text-[3.5rem] text-[#707070] leading-[1.6] font-medium">
             Welcome to Rudrarogyam: <br /> Your Wellness Village

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
 import Nav from "../../Components/Navbar/Nav";
 import ProgramsMore from "./ProgramsMore";
+import logo from "/Images/logo.png";
 
 const Programs = () => {
   const { handleOnClick } = Handlers();
@@ -47,11 +48,7 @@ const Programs = () => {
               onClick={handleOnClick("/")}
               className="text-[4rem] font-medium"
             >
-              <span className="text-[4.5rem] text-[white] bg-[green] px-[1rem] py-[0rem] rounded-md">
-                R
-              </span>{" "}
-              <span className="text-[green]">R</span>udra
-              <span className="text-[green]">R</span>ogyam
+              <img src={logo} alt="logo" className="w-[100%] max-sm:w-[80%]" />
             </Link>
           </div>
           <p className="text-[3.5rem] text-[#707070] leading-[1.6] font-medium">

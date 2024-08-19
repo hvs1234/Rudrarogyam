@@ -1,15 +1,14 @@
 // import React from 'react'
-import Nav from "../../Components/Navbar/Nav";
-import Handlers from "../../Services/Handlers";
+
 import { useEffect, useState } from "react";
-import AboutStory from "./AboutStory";
-import Footer from "../../Components/Footer/Footer";
-import AboutTeam from "./AboutTeam";
-import AboutValue from "./AboutValue";
+import Handlers from "../../Services/Handlers";
+import Nav from "../../Components/Navbar/Nav";
 import { Link } from "react-router-dom";
 import logo from "/Images/logo.png";
+import Footer from "../../Components/Footer/Footer";
+import BookingForm from "./BookingForm";
 
-const About = () => {
+const Booking = () => {
   const { handleOnClick } = Handlers();
 
   // Slider Image
@@ -53,20 +52,12 @@ const About = () => {
             </Link>
           </div>
           <p className="text-[3.5rem] text-[#707070] leading-[1.6] font-medium">
-            About Us
+            Our Booking
           </p>
           <p className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[0]">
             Rudrarogyam was founded with the mission to promote natural healing
             and holistic wellness. We believe in treating the body, mind, and
             spirit as one.
-          </p>
-          <p className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[0]">
-            Our approach integrates ancient wisdom with modern practices,
-            providing personalized care that nurtures balance and harmony. Join
-            us on a journey towards vibrant health and a more mindful, fulfilled
-            life. Through our diverse range of therapies, workshops, and
-            wellness programs, we empower individuals to achieve their highest
-            potential.
           </p>
           <p className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[0]">
             Experience the transformative power of holistic healing and discover
@@ -81,23 +72,15 @@ const About = () => {
         </div>
       </section>
 
-      {/* About Story */}
+      {/* Booking */}
 
-      <AboutStory />
+      <BookingForm />
 
-      {/* About Team */}
-
-      <AboutTeam />
-
-      {/* About Value */}
-
-      <AboutValue />
-
-      {/* Footer Section */}
+      {/* Footer */}
 
       <Footer />
     </>
   );
 };
 
-export default About;
+export default Booking;

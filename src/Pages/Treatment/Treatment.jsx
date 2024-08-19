@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import Handlers from "../../Services/Handlers";
 import TreatmentData from "./TreatmentData";
 import Footer from "../../Components/Footer/Footer";
+import logo from "/Images/logo.png";
 
 const Treatment = () => {
   const { handleOnClick } = Handlers();
@@ -50,11 +51,7 @@ const Treatment = () => {
               onClick={handleOnClick("/")}
               className="text-[4rem] font-medium"
             >
-              <span className="text-[4.5rem] text-[white] bg-[green] px-[1rem] py-[0rem] rounded-md">
-                R
-              </span>{" "}
-              <span className="text-[green]">R</span>udra
-              <span className="text-[green]">R</span>ogyam
+              <img src={logo} alt="logo" className="w-[100%] max-sm:w-[80%]" />
             </Link>
           </div>
           <p className="text-[3.5rem] text-[#707070] leading-[1.6] font-medium">

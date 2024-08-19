@@ -6,6 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import FooterNavLink from "../../APIs/FooterNavAPI";
 import { useState } from "react";
+import logo from "/Images/logo.png";
 
 const Footer = () => {
   // API
@@ -17,26 +18,26 @@ const Footer = () => {
 
   return (
     <>
-      <div className="py-[6rem] px-[20rem] grid grid-cols-3 ml-auto mr-auto justify-center items-start gap-[0rem] bg-[#3c2e2e] max-lg:grid-cols-1 max-lg:gap-[8rem] max-lg:px-[4rem]">
+      <div className="py-[6rem] px-[20rem] grid grid-cols-3 ml-auto mr-auto justify-center items-start gap-[0rem] bg-[#e2e2e2] max-lg:grid-cols-1 max-lg:gap-[8rem] max-lg:px-[4rem]">
         <div className="flex flex-col gap-[3rem] w-[100%]">
           <Link
             to={"/"}
             onClick={handleOnClick("/")}
-            className="text-[4rem] text-[white] font-normal max-xl:text-[3rem]"
+            className="text-[4rem] text-[black] font-normal max-xl:text-[3rem]"
           >
-            <span className="text-[4.5rem] text-[white] bg-[green] px-[1rem] py-[0rem] rounded-md max-xl:text-[3.5rem]">
-              R
-            </span>{" "}
-            <span className="text-[lime]">R</span>udra
-            <span className="text-[lime]">R</span>ogyam
+            <img
+              src={logo}
+              alt="logo"
+              className="w-[50%] max-lg:w-[30%] max-[500px]:w-[50%]"
+            />
           </Link>
-          <p className="text-[2rem] text-[white] font-light leading-[2] tracking-[1px]">
+          <p className="text-[2rem] text-[black] font-normal leading-[2] tracking-[1px]">
             Rudrarogyam is a premier naturopathy wellness village dedicated to
             holistic healing through natural methods.
           </p>
         </div>
-        <div className="flex flex-col gap-[3rem] justify-center items-start ml-auto mr-auto text-[white] max-lg:items-start max-lg:ml-0">
-          <p className="text-[3rem] font-normal text-[white]">Our Links</p>
+        <div className="flex flex-col gap-[3rem] justify-center items-start ml-auto mr-auto text-[black] max-lg:items-start max-lg:ml-0">
+          <p className="text-[3rem] font-normal text-[black]">Our Links</p>
           <div className="f-links flex flex-col gap-[2rem]">
             {footernavlink.map((e) => {
               return (
@@ -44,7 +45,7 @@ const Footer = () => {
                   key={e.id}
                   to={e.to}
                   onClick={handleOnClick(e.to)}
-                  className="text-[2rem] font-light text-[white] tracking-[1px] hover:scale-[1.1] transition-all duration-[0.2s]"
+                  className="text-[2rem] font-normal text-[black] tracking-[1px] hover:scale-[1.1] transition-all duration-[0.2s] hover:text-[#4f4f79]"
                 >
                   <i className="fa-solid fa-arrow-right"></i>&nbsp; {e.title}
                 </Link>
@@ -53,36 +54,36 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center items-start gap-[3rem]">
-          <p className="text-[3rem] text-[white] font-normal">
+          <p className="text-[3rem] text-[black] font-normal">
             Social Accounts
           </p>
-          <p className="text-[2rem] font-light tracking-[1px] text-[white]">
+          <p className="text-[2rem] font-normal tracking-[1px] text-[black]">
             Follow Us On:
           </p>
           <div className="flex gap-[2rem]">
             <a href="https://www.facebook.com/rudraarogyam/" target="_blank">
               <FaFacebookF
-                size={45}
-                className="bg-[black] text-[white] px-[1rem] py-[1rem] border-[1px] border-[black] rounded-md hover:bg-[white] hover:text-[black] transition-all duration-[0.2s] ease-linear hover:border-[white]"
+                size={30}
+                className="text-[black] rounded-md hover:text-[darkgreen] transition-all duration-[0.2s] ease-linear hover:border-[black]"
               />
             </a>
             <a href="https://www.instagram.com/rudrarogyam/" target="_blank">
               <BsInstagram
-                size={45}
-                className="bg-[black] text-[white] px-[1rem] py-[1rem] border-[1px] border-[black] rounded-md hover:bg-[white] hover:text-[black] transition-all duration-[0.2s] ease-linear hover:border-[white]"
+                size={30}
+                className="text-[black] rounded-md hover:text-[darkgreen] transition-all duration-[0.2s] ease-linear hover:border-[white]"
               />
             </a>
           </div>
         </div>
       </div>
 
-      <div className="bg-[black] px-[2rem] py-[1rem] flex items-center justify-center text-center">
-        <p className="text-[2rem] tracking-[1px] text-[white] font-light">
+      <div className="bg-[#e2e2e2] px-[2rem] py-[1rem] flex items-center justify-center text-center">
+        <p className="text-[2rem] tracking-[1px] text-[black] font-normal">
           &copy; Copyright Rudrarogyam 2024 | All right reserved | IT Support By{" "}
           <a
             href="https://twomglobal.com"
             target="_blank"
-            className="text-[goldenrod] hover:text-[gold] transition-all duration-[0.2s]"
+            className="text-[darkgreen] hover:text-[green] transition-all duration-[0.2s]"
           >
             TWOM Global
           </a>

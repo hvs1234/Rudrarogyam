@@ -24,7 +24,7 @@ const Nav = () => {
   return (
     <>
       <header
-        className={`header flex justify-center fixed w-full h-[auto] items-center py-[2rem] max-md:py-[3rem] bg-[#f2f2f2] z-[1001] ${
+        className={`header flex justify-center fixed w-full h-[auto] items-center py-[2rem] max-md:py-[3rem] bg-[#f2f2f2] shadow-md z-[1001] ${
           isActive ? "active" : ""
         }`}
       >

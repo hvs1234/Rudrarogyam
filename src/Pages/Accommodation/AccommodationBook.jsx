@@ -26,9 +26,9 @@ const AccommodationBook = () => {
             <i className="text-[4rem] opacity-[0.5] fa-solid fa-quote-right"></i>
           </p>
           <Link
-            to={"/accommodation"}
-            onClick={handleOnClick("/accommodation")}
-            className={`text-[2.5rem] font-normal bg-[crimson] border-[1px] border-[crimson] text-[white] rounded-md px-[6rem] py-[0.5rem] mt-[2rem] hover:bg-transparent hover:border-[white] hover:text-[white] transition-all duration-[0.2s]`}
+            to={"/book"}
+            onClick={handleOnClick("/book")}
+            className={`text-[2.5rem] font-normal bg-[darkgreen] border-[1px] border-[darkgreen] text-[white] rounded-md px-[6rem] py-[0.5rem] mt-[2rem] hover:bg-transparent hover:border-[white] hover:text-[white] transition-all duration-[0.2s]`}
           >
             Book Now
           </Link>

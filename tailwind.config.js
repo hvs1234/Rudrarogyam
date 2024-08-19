@@ -12,6 +12,9 @@ export default {
       animation: {
         slideIn: "slideIn 0.5s ease-out forwards",
       },
+      gridTemplateColumns: {
+        "auto-fit": "repeat(auto-fit, minmax(500px, 1fr))",
+      },
     },
   },
   plugins: [],
