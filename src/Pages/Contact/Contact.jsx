@@ -14,12 +14,12 @@ const Contact = () => {
   // Slider Image
 
   const images = [
-    "/Images/Accommodation/1.jpg",
-    "/Images/Accommodation/2.jpg",
-    "/Images/Accommodation/3.jpg",
-    "/Images/Accommodation/4.jpg",
-    "/Images/Accommodation/5.jpg",
-    "/Images/Accommodation/6.jpg",
+    "/Images/Main/6.jpg",
+    "/Images/Main/3.jpg",
+    "/Images/Main/1.jpg",
+    "/Images/Main/2.jpg",
+    "/Images/Main/4.jpg",
+    "/Images/Main/5.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -63,25 +63,26 @@ const Contact = () => {
           <div className="flex items-center gap-[1rem]">
             <GrLocation size={30} className="text-[#585858]" />
             <p className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[0]">
-              Rudrarogyam, Mandir Marg Gopeshwar, Uttarakhand
+              Rudrarogyam wellness village, khaltaal, maithana District
+              (Chamoli)
             </p>
           </div>
           <div className="flex items-center gap-[1rem]">
             <BiPhoneCall size={30} className="text-[#585858]" />
             <a
-              href="tel:7060951856"
+              href="tel:9258343156"
               className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[0]"
             >
-              +917060951856
+              +91-92583 43156
             </a>
           </div>
           <div className="flex items-center gap-[1rem]">
             <BiEnvelope size={30} className="text-[#585858]" />
             <a
-              href="#"
+              href="mailto:namasterudra13@gmail.com"
               className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[0]"
             >
-              xyz@gmail.com
+              namasterudra13@gmail.com
             </a>
           </div>
         </div>

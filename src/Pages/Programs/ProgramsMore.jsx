@@ -24,7 +24,7 @@ const ProgramsMore = () => {
               <p className="text-[3rem] text-[white] font-medium max-sm:text-[3rem]">
                 {e.title}
               </p>
-              <p className="text-[2rem] font-[400] text-[white] leading-[2] max-sm:text-[2rem]">
+              <p className="text-[2rem] font-[400] text-[white] leading-[2] max-sm:text-[2rem] max-w-[60%] max-md:max-w-[100%]">
                 <i className="text-[4rem] opacity-[0.5] fa-solid fa-quote-left"></i>
                 &nbsp; {e.desc} &nbsp;
                 <i className="text-[4rem] opacity-[0.5] fa-solid fa-quote-right"></i>

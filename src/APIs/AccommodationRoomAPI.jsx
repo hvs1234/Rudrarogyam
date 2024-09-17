@@ -3,7 +3,7 @@ const AccommodationRoomData = [
     id: 1,
     title: "Standard Rooms",
     desc: "Comfortable and affordable, equipped with essential amenities",
-    img: "/Images/Accommodation/4.jpg",
+    img: "/Images/Main/4.jpg",
     mainclass:
       "grid grid-cols-5 w-[100%] h-[100%] max-xl:grid-cols-1 max-xl:h-[100%]",
     dataclass:
@@ -14,7 +14,7 @@ const AccommodationRoomData = [
     id: 2,
     title: "Deluxe Rooms",
     desc: "Spacious and elegantly designed, providing additional comfort",
-    img: "/Images/bg6.jpg",
+    img: "/Images/Main/10.jpg",
     mainclass:
       "grid grid-cols-4 w-[100%] h-[100%] max-xl:grid-cols-1 max-xl:h-[100%]",
     dataclass:
@@ -25,7 +25,7 @@ const AccommodationRoomData = [
     id: 3,
     title: "Suites",
     desc: "Luxurious accommodations with premium facilities for a tranquil stay",
-    img: "/Images/Accommodation/1.jpg",
+    img: "/Images/Main/9.jpg",
     mainclass:
       "grid grid-cols-5 w-[100%] h-[100%] max-xl:grid-cols-1 max-xl:h-[100%]",
     dataclass:

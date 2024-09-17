@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 import Handlers from "../../Services/Handlers";
-import treatimg from "/Images/bg3.jpg";
+import treatimg from "/Images/Treatment/6.jpg";
 import HomeTreatedData from "../../APIs/HomeTreatedAPI";
 import { useState } from "react";
 
@@ -19,7 +19,7 @@ const HomeTreated = () => {
       <div className="grid grid-cols-4 w-[100%] h-[100%] max-xl:grid-cols-1 max-xl:h-[100%]">
         <div className="bg-[darkred] col-span-2 max-xl:col-span-1 flex flex-col justify-center items-start px-[8rem] py-[6rem] gap-[2rem] max-sm:px-[4rem] max-sm:py-[4rem]">
           <p className="text-[3rem] text-[white] font-medium">
-            Disease Treated
+            Treatment Provided
           </p>
           <p className="text-[2rem] font-normal text-[#f3f3f3] leading-[1.6]">
             At Rudrarogyam, we offer a variety of treatments that focus on
@@ -46,7 +46,7 @@ const HomeTreated = () => {
           </Link>
         </div>
         <div className="col-span-2 max-xl:col-span-1">
-          <img src={treatimg} alt="img" className="w-[100%]" />
+          <img src={treatimg} alt="img" className="w-[100%] h-[100%]" />
         </div>
       </div>
     </>

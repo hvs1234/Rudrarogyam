@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 import Handlers from "../../Services/Handlers";
-import homegalleryimg from "/Images/bg7.jpg";
+import homegalleryimg from "/Images/Main/1.jpg";
 
 const HomeGallery = () => {
   const { handleOnClick } = Handlers();

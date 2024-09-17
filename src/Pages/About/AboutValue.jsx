@@ -1,5 +1,5 @@
 // import React from 'react'
-import treatimg from "/Images/About/6.jpg";
+import treatimg from "/Images/Main/9.jpg";
 
 const AboutValue = () => {
   return (

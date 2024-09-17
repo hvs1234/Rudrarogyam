@@ -19,10 +19,10 @@ const Gallery = () => {
   // Slider Image
 
   const images = [
-    "/Images/bg1.jpg",
-    "/Images/bg2.jpg",
-    "/Images/bg3.jpg",
-    "/Images/bg4.jpg",
+    "/Images/Main/1.jpg",
+    "/Images/Main/2.jpg",
+    "/Images/Main/9.jpg",
+    "/Images/Main/10.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -67,7 +67,7 @@ const Gallery = () => {
       <Nav />
       <section className="px-[0] py-[0] grid grid-cols-3 justify-center items-center relative object-cover w-[100%] h-[100%] shadow-sm max-xl:grid-cols-1">
         <div className="bg-[#f2f2f2] h-[100%] w-[100%] flex flex-col justify-center items-start gap-[2rem] px-[4rem] py-[10rem]">
-          <div className="flex justify-start items-start">
+          <div className="flex justify-start w-[100%] h-[100%] items-start">
             <Link
               to={"/"}
               onClick={handleOnClick("/")}

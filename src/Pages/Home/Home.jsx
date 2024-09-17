@@ -17,10 +17,12 @@ const Home = () => {
   // Slider Image
 
   const images = [
-    "/Images/bg1.jpg",
-    "/Images/bg2.jpg",
-    "/Images/bg3.jpg",
-    "/Images/bg4.jpg",
+    "/Images/Main/1.jpg",
+    "/Images/Main/2.jpg",
+    "/Images/Main/3.jpg",
+    "/Images/Main/4.jpg",
+    "/Images/Main/5.jpg",
+    "/Images/Main/6.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -63,9 +65,8 @@ const Home = () => {
             Welcome to Rudrarogyam: <br /> Your Wellness Village
           </p>
           <p className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[1rem]">
-            Rudrarogyam is a premier naturopathy wellness village dedicated to
-            holistic healing through natural methods. Our serene environment and
-            comprehensive wellness treatments ensure a rejuvenating experience
+            Rudrarogyam specialists will customize your diet plan which a user
+            can consult online and offline.
           </p>
         </div>
         <div

@@ -15,12 +15,12 @@ const About = () => {
   // Slider Image
 
   const images = [
-    "/Images/About/1.jpg",
-    "/Images/About/2.jpg",
-    "/Images/About/3.jpg",
-    "/Images/About/4.jpg",
-    "/Images/About/5.jpg",
-    "/Images/About/6.jpg",
+    "/Images/Main/9.jpg",
+    "/Images/Main/8.jpg",
+    "/Images/Main/1.jpg",
+    "/Images/Main/3.jpg",
+    "/Images/Main/2.jpg",
+    "/Images/Main/4.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -55,22 +55,12 @@ const About = () => {
           <p className="text-[3.5rem] text-[#707070] leading-[1.6] font-medium">
             About Us
           </p>
-          <p className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[0]">
-            Rudrarogyam was founded with the mission to promote natural healing
-            and holistic wellness. We believe in treating the body, mind, and
-            spirit as one.
+          <p className="text-[2.5rem] text-[#757474] leading-[1.6] font-medium">
+            Ayurveda significance and privileges
           </p>
           <p className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[0]">
-            Our approach integrates ancient wisdom with modern practices,
-            providing personalized care that nurtures balance and harmony. Join
-            us on a journey towards vibrant health and a more mindful, fulfilled
-            life. Through our diverse range of therapies, workshops, and
-            wellness programs, we empower individuals to achieve their highest
-            potential.
-          </p>
-          <p className="text-[2rem] text-[#585858] font-normal leading-[1.6] mt-[0]">
-            Experience the transformative power of holistic healing and discover
-            a path to inner peace, vitality, and lifelong well-being.
+            Rudrarogyam totally neglect allopathy and any other artificial way
+            of treatment and promote natural Ayurvedic treatment.
           </p>
         </div>
         <div

@@ -15,11 +15,11 @@ const Programs = () => {
 
   const images = [
     "/Images/Programs/1.jpg",
-    "/Images/bg3.jpg",
-    "/Images/Accommodation/2.jpg",
+    "/Images/Main/8.jpg",
+    "/Images/Main/5.jpg",
     "/Images/Treatment/1.jpg",
-    "/Images/Treatment/4.jpg",
-    "/Images/Programs/2.jpg",
+    "/Images/Main/2.jpg",
+    "/Images/Main/6.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

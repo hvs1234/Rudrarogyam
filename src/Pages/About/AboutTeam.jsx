@@ -1,5 +1,5 @@
 // import React from 'react'
-import treatimg from "/Images/About/4.jpg";
+import treatimg from "/Images/Main/2.jpg";
 
 const AboutTeam = () => {
   return (

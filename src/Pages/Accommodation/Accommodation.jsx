@@ -7,8 +7,9 @@ import { useEffect, useState } from "react";
 import AccommodationRooms from "./AccommodationRooms";
 import Footer from "../../Components/Footer/Footer";
 import AccommodationFacilities from "./AccommodationFacilities";
-import AccommodationBook from "./AccommodationBook";
+// import AccommodationBook from "./AccommodationBook";
 import logo from "/Images/logo.png";
+import AccomodationPackage from "./AccomodationPackage";
 
 const Accommodation = () => {
   const { handleOnClick } = Handlers();
@@ -16,12 +17,12 @@ const Accommodation = () => {
   // Slider Image
 
   const images = [
-    "/Images/Accommodation/1.jpg",
-    "/Images/Accommodation/2.jpg",
-    "/Images/Accommodation/3.jpg",
-    "/Images/Accommodation/4.jpg",
-    "/Images/Accommodation/5.jpg",
-    "/Images/Accommodation/6.jpg",
+    "/Images/Main/5.jpg",
+    "/Images/Main/2.jpg",
+    "/Images/Main/6.jpg",
+    "/Images/Main/4.jpg",
+    "/Images/Main/3.jpg",
+    "/Images/Main/9.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -83,9 +84,9 @@ const Accommodation = () => {
 
       <AccommodationFacilities />
 
-      {/* Accommodation Booking */}
+      {/* Accomodation Package Details */}
 
-      <AccommodationBook />
+      <AccomodationPackage />
 
       {/* Footer */}
 

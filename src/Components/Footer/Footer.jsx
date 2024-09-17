@@ -61,7 +61,10 @@ const Footer = () => {
             Follow Us On:
           </p>
           <div className="flex gap-[2rem]">
-            <a href="https://www.facebook.com/rudraarogyam/" target="_blank">
+            <a
+              href="https://www.facebook.com/rudrarogyam?mibextid=ZbWKwL"
+              target="_blank"
+            >
               <FaFacebookF
                 size={30}
                 className="text-[black] rounded-md hover:text-[darkgreen] transition-all duration-[0.2s] ease-linear hover:border-[black]"

@@ -1,23 +1,23 @@
 const HomeTreatedData = [
   {
     id: 1,
-    text: "Panchakarma",
+    text: "PCOD",
   },
   {
     id: 2,
-    text: "Cupping",
+    text: "Arthritis",
   },
   {
     id: 3,
-    text: "Chiropractic",
+    text: "Obesity",
   },
   {
     id: 4,
-    text: "Acupressure",
+    text: "Thyroid",
   },
   {
     id: 5,
-    text: "Yoga",
+    text: "Diabetes",
   },
 ];
 

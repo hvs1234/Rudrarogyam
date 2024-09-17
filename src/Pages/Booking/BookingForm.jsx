@@ -82,7 +82,11 @@ const BookingForm = () => {
                   <option value="">Select Country</option>
                   {countrydata.map((e) => {
                     return (
-                      <option key={e.id} value={e.value} className="cursor-pointer">
+                      <option
+                        key={e.id}
+                        value={e.value}
+                        className="cursor-pointer"
+                      >
                         {e.name}
                       </option>
                     );

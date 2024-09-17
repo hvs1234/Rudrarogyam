@@ -14,12 +14,12 @@ const Booking = () => {
   // Slider Image
 
   const images = [
-    "/Images/About/1.jpg",
-    "/Images/About/2.jpg",
-    "/Images/About/3.jpg",
-    "/Images/About/4.jpg",
-    "/Images/About/5.jpg",
-    "/Images/About/6.jpg",
+    "/Images/Main/10.jpg",
+    "/Images/Main/2.jpg",
+    "/Images/Main/6.jpg",
+    "/Images/Main/5.jpg",
+    "/Images/Main/9.jpg",
+    "/Images/Main/3.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

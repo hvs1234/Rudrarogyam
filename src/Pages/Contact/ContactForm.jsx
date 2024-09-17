@@ -1,5 +1,5 @@
 // import React from 'react'
-import treatimg from "/Images/About/1.jpg";
+import treatimg from "/Images/Main/9.jpg";
 
 const ContactForm = () => {
   return (

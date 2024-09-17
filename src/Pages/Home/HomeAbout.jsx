@@ -1,7 +1,7 @@
 // import React from 'react'
 import { Link } from "react-router-dom";
 import Handlers from "../../Services/Handlers";
-import homeaboutimg from "/Images/bg5.jpg";
+import homeaboutimg from "/Images/Main/6.jpg";
 
 const HomeAbout = () => {
   const { handleOnClick } = Handlers();
@@ -18,17 +18,12 @@ const HomeAbout = () => {
           <p className={`text-[3rem] font-medium capitalize text-[#3c3c3c]`}>
             About Rudrarogyam
           </p>
+          <p className={`text-[2.2rem] font-medium capitalize text-[#595169]`}>
+            Ayurveda significance and privileges
+          </p>
           <p className={`text-[2rem] font-normal text-[#595959] leading-[1.6]`}>
-            Rudrarogyam was founded with the mission to promote natural healing
-            and holistic wellness. We believe in treating the body, mind, and
-            spirit as one. Our approach integrates ancient wisdom with modern
-            practices, providing personalized care that nurtures balance and
-            harmony. Join us on a journey towards vibrant health and a more
-            mindful, fulfilled life. Through our diverse range of therapies,
-            workshops, and wellness programs, we empower individuals to achieve
-            their highest potential. Experience the transformative power of
-            holistic healing and discover a path to inner peace, vitality, and
-            lifelong well-being
+            Rudrarogyam totally neglect allopathy and any other artificial way
+            of treatment and promote natural Ayurvedic treatment.
           </p>
           <Link
             to={"/about"}

@@ -14,7 +14,7 @@ const BlogCard = () => {
 
   return (
     <>
-      <div className="mx-auto py-[9rem] max-w-[140rem] grid grid-cols-3 gap-[2rem] w-[100%] max-xl:max-w-[120rem] max-lg:max-w-[100rem] max-lg:grid-cols-2 max-md:grid-cols-1 max-md:max-w-[60rem] max-[500px]:max-w-[50rem] max-[400px]:max-w-[40rem]">
+      <div className="mx-auto py-[9rem] max-w-[140rem] grid grid-cols-3 gap-[2rem] w-[100%] max-xl:max-w-[120rem] max-lg:max-w-[100rem] max-lg:grid-cols-2 max-md:grid-cols-1 max-md:gap-[4rem] max-md:max-w-[60rem] max-[500px]:max-w-[50rem] max-[400px]:max-w-[40rem]">
         {blogdata.map((e) => {
           return (
             <div
@@ -25,20 +25,16 @@ const BlogCard = () => {
                 <img src={e.img} alt="img" className="w-[100%] h-[100%]" />
               </div>
               <div className="flex flex-col gap-[1rem] justify-center px-[2rem] py-[2rem]">
-                <div className="">
-                  <Link
-                    to={e.to}
-                    onClick={handleOnClick(e.to)}
-                    className="text-[2rem] font-normal transition-all duration-[0.2s] text-[#4e4e4e] ease-linear hover:text-[#7698a4]"
-                  >
-                    {e.title}
-                  </Link>
-                </div>
-                <div className="py-[2rem]">
-                  <Link className="bg-[darkgreen] text-[2rem] text-[white] px-[2rem] py-[1rem] rounded-full border-[1px] border-[] hover:bg-transparent hover:text-[black] hover:border-[black] transition-all duration-[0.3s] ease-linear">
-                    {e.link}
-                  </Link>
-                </div>
+                <p className="text-[2rem] font-normal transition-all duration-[0.2s] text-[#4e4e4e]">
+                  {e.title}
+                </p>
+                <Link
+                  to={e.to}
+                  onClick={handleOnClick(e.to)}
+                  className="text-[2rem] font-normal transition-all duration-[0.2s] text-[grey] ease-linear hover:text-[#7698a4]"
+                >
+                  {e.desc}
+                </Link>
               </div>
             </div>
           );

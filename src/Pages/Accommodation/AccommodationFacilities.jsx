@@ -7,10 +7,10 @@ const AccommodationFacilities = () => {
   // Slider Image
 
   const images = [
-    "/Images/Accommodation/2.jpg",
-    "/Images/Accommodation/7.jpg",
-    "/Images/Accommodation/8.jpg",
-    "/Images/Accommodation/9.jpg",
+    "/Images/Main/1.jpg",
+    "/Images/Main/5.jpg",
+    "/Images/Main/3.jpg",
+    "/Images/Main/4.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
